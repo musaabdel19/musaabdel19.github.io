@@ -2,7 +2,7 @@
 <html>
   <head>
     <title>Panda Walking Animation</title>
-    <link rel="stylesheet" href = "moving.css">
+    <link rel="stylesheet" href = "Moving.css">
     <script src="cartoon.js"></script>
 </head>
   <body>
