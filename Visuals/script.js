@@ -1,7 +1,7 @@
 const years = Object.keys(sampleData); // getting years as keys of sampleData
 const data = Object.values(sampleData); // data as values of sampleData
 const barInfo = {
-    type: 'horizontalBar', // type defines which chart need to draw
+    type: 'horizontalBar', // defines chart type
     data: {
 	labels: years,
 	datasets: [ {
@@ -16,16 +16,16 @@ const barInfo = {
 	    display: true,
 	    text: 'Horizontal Bar Graph'
 	},
-	legend: { // if true will display legends
+	legend: { 
 	    display: false
 	},
-	tooltips: { // if true will display tooltips
+	tooltips: { 
 	    enabled: false
 	},
 	scales: {
 	    yAxes: [{
 		ticks: {
-		    reverse: false // to reverse order of y axis 
+		    reverse: false // reverses order of y axis 
 		}
 	    } ],
 	}
@@ -49,10 +49,10 @@ const doughnutInfo = {
 	    display: true,
 	    text: 'Doughnut Chart'
 	},
-	legend: { // if true will display legends
+	legend: {
 	    display: false
 	},
-	tooltips: { // if true will display tooltips
+	tooltips: {
 	    enabled: false
 	},
     }
