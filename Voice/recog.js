@@ -42,7 +42,6 @@ function textToSpeech(text) {
     let utternance = new SpeechSynthesisUtterance(text);
     speechSynthesis.speak(utternance); 
 }
-//click to start
 function getMousePos(canvas, evt) {
     var rect = canvas.getBoundingClientRect();
     return {
